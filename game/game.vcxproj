@@ -146,10 +146,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Alien.cpp" />
+    <ClCompile Include="AlienGroup.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Bombs.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="Missile.cpp" />
+    <ClCompile Include="missileHolder.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\Programming 2\Labs\Lab05_Tasks(1)\Lab05_Tasks\game\enemy.png" />
+    <Image Include="..\..\..\..\..\Desktop\Programming 2\Labs\Lab05_Tasks(1)\Lab05_Tasks\game\missile.png" />
+    <Image Include="bathbomb.png" />
+    <Image Include="enemySecond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alien.h" />
+    <ClInclude Include="AlienGroup.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Bombs.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="missileHolder.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
